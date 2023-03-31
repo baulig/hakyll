@@ -3,10 +3,216 @@
 # For more information, please see the documentation at:
 #   https://docs.haskellstack.org/en/stable/lock_files
 
-packages: []
+packages:
+- completed:
+    commit: b33cca59a630b85895819f6816b3a0827da06f39
+    git: https://github.com/baulig/pandoc.git
+    name: pandoc
+    pantry-tree:
+      sha256: f5db37138429c868656ec41d07b1128fa96a6f605d9e90d86a72cbd92ec7ade8
+      size: 146025
+    version: 2.19.2
+  original:
+    commit: b33cca59a630b85895819f6816b3a0827da06f39
+    git: https://github.com/baulig/pandoc.git
+- completed:
+    commit: 65e37da6081773bdb324dafc1a2285cf1b497382
+    git: https://github.com/baulig/hslua.git
+    name: hslua
+    pantry-tree:
+      sha256: 9e4237facd9f4e524dcef48ec64fa4b196c192151222ab634231ed9a75007abb
+      size: 679
+    subdir: hslua
+    version: 2.2.1
+  original:
+    commit: 65e37da6081773bdb324dafc1a2285cf1b497382
+    git: https://github.com/baulig/hslua.git
+    subdir: hslua
+- completed:
+    commit: 65e37da6081773bdb324dafc1a2285cf1b497382
+    git: https://github.com/baulig/hslua.git
+    name: hslua-aeson
+    pantry-tree:
+      sha256: d6f2d608578a7a25fadf0e6d3940220713a931823b2dc82135192bfc5a28aa40
+      size: 383
+    subdir: hslua-aeson
+    version: 2.2.1
+  original:
+    commit: 65e37da6081773bdb324dafc1a2285cf1b497382
+    git: https://github.com/baulig/hslua.git
+    subdir: hslua-aeson
+- completed:
+    commit: 65e37da6081773bdb324dafc1a2285cf1b497382
+    git: https://github.com/baulig/hslua.git
+    name: hslua-classes
+    pantry-tree:
+      sha256: 56774ccb06a942e2ad7e6c2f03dfb23108e76c6b3df632de23325f50f550b16c
+      size: 1113
+    subdir: hslua-classes
+    version: 2.2.0
+  original:
+    commit: 65e37da6081773bdb324dafc1a2285cf1b497382
+    git: https://github.com/baulig/hslua.git
+    subdir: hslua-classes
+- completed:
+    commit: 65e37da6081773bdb324dafc1a2285cf1b497382
+    git: https://github.com/baulig/hslua.git
+    name: hslua-core
+    pantry-tree:
+      sha256: 887aee4957724bcc10c1483d5dd1c0fa8ca10b0ad95332c4dc5b9e3f537fb4ee
+      size: 2069
+    subdir: hslua-core
+    version: 2.2.1
+  original:
+    commit: 65e37da6081773bdb324dafc1a2285cf1b497382
+    git: https://github.com/baulig/hslua.git
+    subdir: hslua-core
+- completed:
+    commit: 65e37da6081773bdb324dafc1a2285cf1b497382
+    git: https://github.com/baulig/hslua.git
+    name: hslua-marshalling
+    pantry-tree:
+      sha256: e6459c3bf40d57df3350174031e72d3e250d397d534bc480d7940158ba4bc0e9
+      size: 1023
+    subdir: hslua-marshalling
+    version: 2.2.1
+  original:
+    commit: 65e37da6081773bdb324dafc1a2285cf1b497382
+    git: https://github.com/baulig/hslua.git
+    subdir: hslua-marshalling
+- completed:
+    commit: 65e37da6081773bdb324dafc1a2285cf1b497382
+    git: https://github.com/baulig/hslua.git
+    name: hslua-module-path
+    pantry-tree:
+      sha256: 3020aa6d68242ad7576bdf4f263dcdbb934fef712d3ecd9c46471e31089fe3b6
+      size: 522
+    subdir: hslua-module-path
+    version: 1.0.3
+  original:
+    commit: 65e37da6081773bdb324dafc1a2285cf1b497382
+    git: https://github.com/baulig/hslua.git
+    subdir: hslua-module-path
+- completed:
+    commit: 65e37da6081773bdb324dafc1a2285cf1b497382
+    git: https://github.com/baulig/hslua.git
+    name: hslua-module-system
+    pantry-tree:
+      sha256: 933d2fdc37a460fd0d80128dcc0e34357601d0b827710fc4d19fe53abd6d2285
+      size: 493
+    subdir: hslua-module-system
+    version: 1.0.2
+  original:
+    commit: 65e37da6081773bdb324dafc1a2285cf1b497382
+    git: https://github.com/baulig/hslua.git
+    subdir: hslua-module-system
+- completed:
+    commit: 65e37da6081773bdb324dafc1a2285cf1b497382
+    git: https://github.com/baulig/hslua.git
+    name: hslua-module-text
+    pantry-tree:
+      sha256: aaaa30f6a86f9fa3027fe8ec19648989abc7b318d6bbec6fe442c9f275261402
+      size: 507
+    subdir: hslua-module-text
+    version: 1.0.2
+  original:
+    commit: 65e37da6081773bdb324dafc1a2285cf1b497382
+    git: https://github.com/baulig/hslua.git
+    subdir: hslua-module-text
+- completed:
+    commit: 65e37da6081773bdb324dafc1a2285cf1b497382
+    git: https://github.com/baulig/hslua.git
+    name: hslua-module-version
+    pantry-tree:
+      sha256: 907149514dd29d1db1fc16f70e28e507a68b2421aa0b4a4dfe49cb7b491ac88d
+      size: 472
+    subdir: hslua-module-version
+    version: 1.0.2
+  original:
+    commit: 65e37da6081773bdb324dafc1a2285cf1b497382
+    git: https://github.com/baulig/hslua.git
+    subdir: hslua-module-version
+- completed:
+    commit: 65e37da6081773bdb324dafc1a2285cf1b497382
+    git: https://github.com/baulig/hslua.git
+    name: hslua-objectorientation
+    pantry-tree:
+      sha256: 5c6b6bf5c7577ddaa2471a129ecdb6159a9fec9c7ae75e3513c14d04b20b912c
+      size: 585
+    subdir: hslua-objectorientation
+    version: 2.2.1
+  original:
+    commit: 65e37da6081773bdb324dafc1a2285cf1b497382
+    git: https://github.com/baulig/hslua.git
+    subdir: hslua-objectorientation
+- completed:
+    commit: 65e37da6081773bdb324dafc1a2285cf1b497382
+    git: https://github.com/baulig/hslua.git
+    name: hslua-packaging
+    pantry-tree:
+      sha256: 9ae69e29dbd0dfd0308f700babb1d3b6a9ee02a26664d1ac8f61d94b59e0a209
+      size: 1373
+    subdir: hslua-packaging
+    version: 2.2.1
+  original:
+    commit: 65e37da6081773bdb324dafc1a2285cf1b497382
+    git: https://github.com/baulig/hslua.git
+    subdir: hslua-packaging
+- completed:
+    commit: 65e37da6081773bdb324dafc1a2285cf1b497382
+    git: https://github.com/baulig/hslua.git
+    name: lua
+    pantry-tree:
+      sha256: 306d94203a33a2f1dae453f1d75c388f8fb3214f7600ece0e5ad60a83666ed96
+      size: 5810
+    subdir: lua
+    version: 2.2.1
+  original:
+    commit: 65e37da6081773bdb324dafc1a2285cf1b497382
+    git: https://github.com/baulig/hslua.git
+    subdir: lua
+- completed:
+    commit: 65e37da6081773bdb324dafc1a2285cf1b497382
+    git: https://github.com/baulig/hslua.git
+    name: lua-arbitrary
+    pantry-tree:
+      sha256: 0faab56c286947360e2de373fe23337ce4a76c25a580206730eda8cc4c9d4652
+      size: 272
+    subdir: lua-arbitrary
+    version: 1.0.1
+  original:
+    commit: 65e37da6081773bdb324dafc1a2285cf1b497382
+    git: https://github.com/baulig/hslua.git
+    subdir: lua-arbitrary
+- completed:
+    commit: 65e37da6081773bdb324dafc1a2285cf1b497382
+    git: https://github.com/baulig/hslua.git
+    name: tasty-hslua
+    pantry-tree:
+      sha256: 0b618508b513c19b490d81a51543f83c265214a751756cab916afe46abd9e18a
+      size: 273
+    subdir: tasty-hslua
+    version: 1.0.2
+  original:
+    commit: 65e37da6081773bdb324dafc1a2285cf1b497382
+    git: https://github.com/baulig/hslua.git
+    subdir: tasty-hslua
+- completed:
+    commit: 65e37da6081773bdb324dafc1a2285cf1b497382
+    git: https://github.com/baulig/hslua.git
+    name: tasty-lua
+    pantry-tree:
+      sha256: f473f75eb15c0deee852ef920805122e1c70285cea360ffea014ebbdb526cf74
+      size: 818
+    subdir: tasty-lua
+    version: 1.0.2
+  original:
+    commit: 65e37da6081773bdb324dafc1a2285cf1b497382
+    git: https://github.com/baulig/hslua.git
+    subdir: tasty-lua
 snapshots:
 - completed:
-    size: 649332
-    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/20/10.yaml
-    sha256: 17870c63f8041ac17a38096124abeb953cb14d84bfc96deb88f9b24daa97b347
-  original: lts-20.10
+    sha256: dad15e2ec0c09280a5c2e07190fb18710fc54472f029f34f861f686540824d81
+    size: 649592
+    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/20/16.yaml
+  original: lts-20.16

@@ -1,4 +1,4 @@
-resolver: 'lts-20.10'
+resolver: lts-20.16
 save-hackage-creds: false
 system-ghc: true
 skip-ghc-check: true
@@ -6,19 +6,40 @@ skip-ghc-check: true
 flags:
   hakyll:
     previewServer: true
-    watchServer:   true
+    watchServer: true
     checkExternal: true
-    usePandoc:     true
-    buildWebsite:  true
+    usePandoc: true
+    buildWebsite: true
 
 packages:
-  - '.'
+  - "."
 
 nix:
   packages:
-    - openssh  # for deployment
-    - rsync    # for deployment
+    - openssh # for deployment
+    - rsync # for deployment
     - zlib
     - pkgconfig
 
 extra-deps:
+  - git: https://github.com/baulig/pandoc.git
+    commit: b33cca59a630b85895819f6816b3a0827da06f39
+
+  - git: https://github.com/baulig/hslua.git
+    commit: 65e37da6081773bdb324dafc1a2285cf1b497382
+    subdirs:
+      - hslua
+      - hslua-aeson
+      - hslua-classes
+      - hslua-core
+      - hslua-marshalling
+      - hslua-module-path
+      - hslua-module-system
+      - hslua-module-text
+      - hslua-module-version
+      - hslua-objectorientation
+      - hslua-packaging
+      - lua
+      - lua-arbitrary
+      - tasty-hslua
+      - tasty-lua
