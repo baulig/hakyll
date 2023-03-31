@@ -23,7 +23,7 @@ nix:
 
 extra-deps:
   - git: https://github.com/baulig/pandoc.git
-    commit: b33cca59a630b85895819f6816b3a0827da06f39
+    commit: f455ee05326a835ecfa6543f404083b378fa0aed
 
   - git: https://github.com/baulig/hslua.git
     commit: 65e37da6081773bdb324dafc1a2285cf1b497382
